@@ -1,0 +1,105 @@
+/* Reset CSS - Garantindo consistência entre navegadores */
+
+/* Remove margens, paddings e bordas padrões */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Configuração de linha de base para HTML5 */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* Garante que a linha base seja consistente */
+body {
+  line-height: 1;
+}
+
+/* Remove estilos padrão de listas */
+ol, ul {
+  list-style: none;
+}
+
+/* Remove aspas padrão de blockquotes e quotes */
+blockquote, q {
+  quotes: none;
+}
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+  content: none;
+}
+
+/* Reseta estilos padrão de tabelas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Garante que imagens não excedam seus contêineres */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove sublinhados de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Garante que formulários tenham aparência consistente */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Define a borda como box-sizing padrão */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove o preenchimento do botão */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Remove a aparência padrão de campos de formulário */
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* Remove o highlight padrão em links ativos no iOS */
+a:focus {
+  outline: none;
+}
+
+/* Garante que textos longos sejam truncados */
+body {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

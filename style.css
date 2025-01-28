@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+body{
+    background-color: #000000;
+}
+.BarraLateral{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+    
+}
+.Nav_BarraLateral{
+    background-color: #2C2C2C;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+
+}
+.BarraLateral nav ul{
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+.logo{
+    background: #2C2C2C;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+.logo a img { 
+    width: 80px; 
+}
+.BarraLateral nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+.BarraLateral nav ul li{
+    padding: 10px 0;
+}
+.SuaBiblioteca{
+    background-color: #2C2C2C;
+    border-radius: 16px;
+    padding: 16px 0 0 16px;
+    font-family: "DM Sans", sans-serif;
+    color: #b3b3b3;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    font-weight: 600;
+    margin-top: 10px;
+    gap: ;
+}
+.content-SuaBiblioteca{
+    display: flex;
+    justify-content: space-between;
+}
+.SuaBiblioteca .Botao_SuaBiblioteca{
+    margin-right: 10px;
+    background-color: transparent;
+    border:0;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+    display: flex;
+    color: #b3b3b3;
+    font-family: "DM Sans", sans-serif;
+}
+.SuaBiblioteca .Botao_SuaBiblioteca .fa{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+    color: #b3b3b3;
+}
+.SuaBiblioteca .Botao_SuaBiblioteca .fa-plus{
+    margin: 24px 10px;
+}
