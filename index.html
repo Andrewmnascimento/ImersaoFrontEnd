@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Junte-se ao Beatly e deixe sua música te levar mais longe. O ritmo do mundo está aqui, e ele começa com você">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/vars.css">
     <script src="script.js"></script>
-    <link rel="shortcut icon" href="assets/logo_bitly_favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/src/assets/logo bitly favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/src/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="src/styles/cabecalho.css">
     <title>Beatly - o seu streaming de música</title>
 </head>
 <body>
@@ -18,7 +20,7 @@
         <nav class="Nav_BarraLateral">
             <div class="logo">
                 <a href="">
-                    <img src="assets/beatly (1).png" alt="Logo do Bitly">
+                    <img src="/src/assets/beatly (1).png" alt="Logo do Bitly">
                 </a>
             </div>
             <ul>
@@ -46,7 +48,7 @@
             </div>
             <section class="section-playlist">
                 <div class="section-playlist-content">
-                    <span class="text title"> Crie sua primeira playlist</span>
+                    <span class="text title"> <h1>Crie sua primeira playlist</h1></span>
                     <span class="text subtitle">É Fácil, vamos te ajudar</span>
                     <button class="section-playlist__button">
                         <span>Criar Playlist</span>
@@ -64,5 +66,38 @@
             </div>
         </div>
     </div>
+    <main>
+        <div class="main-container">
+            <nav class="header-navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/small-left.png" alt="Seta Esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="/src/assets/small-right.png" alt="Seta Direita">
+                    </button>
+                </div>    
+                <div class="header_search">
+                        <img src="src/assets/search.png" alt="">
+                        <input type="text" id="search_input" maxlength="800" placeholder="O que você quer ouvir?">
+                </div>
+                <div class="header_login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+            </nav>
+        </div>
+    </main>
+    <footer>
+        <div class="rodape">
+            <div class="texto-pé1">
+            <p>TESTE O PREMIUM DE GRAÇA</p>
+            </div> <br> 
+            <div class="texto-pé2">
+            <p>Inscreva-se para curtir  musica ilimitada e podcasts só com alguns anúncios. Não Precisa de Cartão de Credito</p>
+            </div>
+            <button class="footer-button"><span>Inscreva-se Gratis</span></button>
+    </div>
+    </footer>
 </body>
 </html>
